@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const element = <h1>Content using JSX</h1>;
-const div = document.createElement('div')
-div.setAttribute('id', 'root')
-document.body.appendChild(div)
+const element = <h1>Content with JSX</h1>;
+
 ReactDOM.render(element, document.getElementById('root'));
